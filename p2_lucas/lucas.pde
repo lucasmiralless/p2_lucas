@@ -1,5 +1,5 @@
 void lucas (float px, float py){
-  pushMatrix();
+  push();
   translate(px,py);
   
   //cara
@@ -39,7 +39,7 @@ void lucas (float px, float py){
   //PELO
 bezier (10,55,10,25,25,30,40,35);
 bezier (40,35,10,6,90,3,90,55);
-  popMatrix();
+  pop();
   
   
 }
